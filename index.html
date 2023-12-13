@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <!-- start header -->
+    <header>
+        <img src="./asset/img/location.svg" alt="my location" id="location">
+        <input type="text" id="search-input" placeholder="which city?!">
+        <button id="search-btn">let's go</button>
+    </header>
+    <!-- end header -->
+
+    <!-- start main -->
+    <!-- start current weather -->
+    <main id="weather">
+        <span id="loader"></span>
+    </main>
+    <!-- end current weather -->
+    <!-- end main -->
+
+    <!-- start forecast weather -->
+    <section id="forecast"></section>
+    <!-- end forecast weather -->
+
+    <!-- start modal -->
+    <div id="modal">
+        <div>
+            <div><span id="modal-btn">X</span></div>
+            <div>
+                <p>test</p>
+            </div>
+        </div>
+    </div>
+    <!-- end modal -->
+
+    <!-- start footer -->
+    <footer>
+        <section id="bio">
+            <p>developed with ❤️ by ✌️Developer6o8✌️</p>
+        </section>
+        <section>
+            <p id="clock"><span id="hours"></span><span id="seconds">:</span><span id="minutes"></span></p>
+        </section>
+    </footer>
+    <!-- end footer -->
+
+    <!-- start script -->
+    <script src="./src/js/app.js" type="module"></script>
+    <!-- end script -->
+</body>
+
+</html>
