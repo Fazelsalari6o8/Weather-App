@@ -51,7 +51,6 @@ const positionCallback = async (position) => {
 const errorCallback = (error) => {
   showModal(error.message);
   showLoader();
-  //   initHandler();
 };
 
 const locationHandler = () => {
